@@ -1,1 +1,5 @@
-Panos!
+Here we experiment with the Pannellum software to show panoramas within GitHub Pages.
+Notes:
+(1) To test locally, we need to start a webserver ($ python3 -m http.server) in the folder of the index.html file, then open the localhost (http://0.0.0.0:8000/) in a browser (cross-origin protection)
+(2) There is a path difference between local test and GitHub Pages - it is "basePath": "/data/p01/" locally, but "basePath": "/<repo_name>/data/p01/" on GitHub. <repo_name> is panos.
+(3) We are using the online versions of the Pannellum scripts (JS and CSS), we had no luck with the downloaded ones - possibly a problem with paths.
