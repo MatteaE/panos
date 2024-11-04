@@ -8,7 +8,7 @@
         "fallbackPath": "/fallback/%s",
         "extension": "jpg",
         "tileResolution": 512,
-        "maxLevel": 4,
+        "maxLevel": 6,
         "cubeResolution": 9144
     }
 }
