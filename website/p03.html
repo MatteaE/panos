@@ -25,9 +25,10 @@
 pannellum.viewer('panorama', {
     "type": "multires",
 		"autoLoad": true,
-		"yaw": 350,
-		"pitch": -15,
-		"hfov": 100.0,
+		"yaw": 15,
+		"pitch": -5,
+		"hfov": 75.0,
+    "maxPitch": 40.0,
     "multiRes": {
         "basePath": "../data/p03/",
         "path": "/%l/%s%y_%x",
@@ -35,7 +36,7 @@ pannellum.viewer('panorama', {
         "extension": "jpg",
         "tileResolution": 512,
         "maxLevel": 6,
-        "cubeResolution": 9168
+        "cubeResolution": 9160
     }
 });
 </script>
